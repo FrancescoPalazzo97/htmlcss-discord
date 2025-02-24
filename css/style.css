@@ -24,6 +24,10 @@ body {
     justify-content: space-between;
 }
 
+.align-items-center {
+    align-items: center;
+}
+
 .nowrap {
     flex-wrap: nowrap;
 }
@@ -178,6 +182,7 @@ body {
 
 .container {
     width: var(--width-maincontainer-1080p);
+   /* width: var(--width-maincontainer-1440p); */
 }
 
 .container-xxl {
@@ -233,6 +238,7 @@ body {
 
 .btn-style.bg-5:hover {
     background-color: var(--color4);
+    border: none;
 }
 
 /* Common */
