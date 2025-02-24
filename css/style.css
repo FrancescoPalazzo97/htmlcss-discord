@@ -114,6 +114,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.bg-image2 {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 35px 50px 0;
+}
+
 /* margin e padding */
 
 /* Margin */
