@@ -35,7 +35,7 @@ body {
 /* text decorations, sizes and align */
 
 .v-align-center {
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .text-center {
@@ -66,12 +66,20 @@ body {
     font-size: 22px;
 }
 
+.font-size-xs {
+    font-size: 12px;
+}
+
 .txt-white {
     color: var(--color1);
 }
 
 .txt-black {
     color: var(--color2);
+}
+
+.txt-blue-discord {
+    color: var(--color6);
 }
 
 /* backgrounds and colors */
@@ -90,6 +98,10 @@ body {
 
 .bg-4 {
     background-color: var(--color1);
+}
+
+.bg-5 {
+    background-color: var(--color6);
 }
 
 .bg-image1 {
@@ -124,6 +136,10 @@ body {
 
 .my-m {
     margin: var(--space-m) 0;
+}
+
+.m-xxs {
+    margin: var(--space-xs);
 }
 
 /* Padding */
@@ -205,10 +221,6 @@ body {
     transition: 0.5s;
 }
 
-.btn-style.bg-1:hover {
-    background-color: #6088ee;
-}
-
 .btn-style.bg-2:hover {
     background-color: var(--color5);
     color: var(--color1);
@@ -217,6 +229,10 @@ body {
 .btn-style.bg-3:hover {
     background-color: var(--color3);
     color: var(--color2);
+}
+
+.btn-style.bg-5:hover {
+    background-color: var(--color4);
 }
 
 /* Common */
@@ -261,19 +277,35 @@ header .logo {
 /* section4 */
 
 .txt-container:first-child {
-    margin: 10px 155px 0;
+    margin: 10px 60px 0;
 }
 
 .txt-container:last-child {
-    margin: 0 155px 50px;
+    margin-bottom: 50px;
 }
 
 
 
 /* FOOTER */
 
-#top-footer {
-    border-bottom: 1px solid var(--color4);
+footer h3 {
+    margin-bottom: 12px;
+}
+
+#top-footer img {
+    width: 8%;
+    margin-right: 3px;
+}
+
+#social-icons ul{
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+#social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+    color: white;
 }
 
 footer .padding-xs {
@@ -288,4 +320,17 @@ footer .padding-xs {
     background-color: brown;
     color: white;
     border: 1px solid black;
+}
+
+.container-xxs ul {
+    list-style-type: none;
+}
+
+.container-xxs li {
+    margin: 15px 0;
+}
+
+#top-footer .container {
+    margin-top: 50px;
+    border-bottom: 1px solid var(--color4);
 }
