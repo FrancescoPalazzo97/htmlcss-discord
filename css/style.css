@@ -6,6 +6,10 @@
 
 /* GENERICS */
 
+body {
+    font-family: 'Lato';
+}
+
 /* generics flex */
 
 .d-flex {
@@ -24,7 +28,7 @@
     flex-wrap: nowrap;
 }
 
-/* text align */
+/* text decorations, sizes and align */
 
 .text-center {
     text-align: center;
@@ -32,6 +36,30 @@
 
 .text-right {
     text-align: right;
+}
+
+.txt-deco-none {
+    text-decoration: none;
+}
+
+.font-size-xxl {
+    font-size: 50px;
+}
+
+.font-size-l {
+    font-size: 28px;
+}
+
+.font-size-m {
+    font-size: 22px;
+}
+
+.txt-white {
+    color: var(--color1);
+}
+
+.txt-black {
+    color: var(--color2);
 }
 
 /* backgrounds and colors */
@@ -44,12 +72,14 @@
     background-color: var(--color3);
 }
 
-.txt-white {
-    color: var(--color1);
+.bg-3 {
+    background-color: var(--color5);
 }
 
-.txt-black {
-    color: var(--color2);
+.bg-image1 {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* margin e padding */
@@ -66,6 +96,10 @@
 
 .margin-b-min {
     margin: var(--space-b-1px);
+}
+
+.margin-r-s{
+    margin-right: var(--space-s);
 }
 
 .mx-s {
@@ -86,8 +120,8 @@
     padding: var(--space-tb-s);
 }
 
-.padding-tp-xl {
-    padding: var(--space-tb-xl);
+.padding-tp-xxl {
+    padding: var(--space-tb-xxl);
 }
 
 .padding-tp-3xl {
@@ -131,7 +165,7 @@
 }
 
 .h-medium {
-    height: 400px;
+    height: 500px;
 }
 
 .h-large {
@@ -141,22 +175,23 @@
 /* Button styles */
 
 .btn-style {
-    padding: 8px 12px;
+    padding: 12px 18px;
     border: none;
-    border-radius: 18px;
+    border-radius: 30px;
     transition: 0.5s;
-}
-
-/* Common */
-
-.txt-deco-none {
-    text-decoration: none;
 }
 
 .btn-style.bg-2.txt-black:hover {
     background-color: var(--color5);
     color: var(--color1);
 }
+
+.btn-style.bg-3.txt-white:hover {
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+/* Common */
 
 /* NAVBAR */
 
@@ -172,15 +207,28 @@ header .logo {
     width: 20%;
 }
 
+/* MAIN CONTENT */
 
-
-/* SPLASHSCREEN */
+/* JUMBOTRON */
 
 .sub-container {
-    width: 800px;
+    width: 850px;
 }
 
-/* MAIN CONTENT */
+.sub-container h1 {
+    padding: 30px 10px 20px;
+    margin: 25px 0px 10px;
+}
+
+.sub-container p {
+    padding: 10px 15px 20px;
+    margin: 0px 0px 10px;
+}
+
+.sub-container .btn-section {
+    padding: 10px;
+    margin-bottom: 250px;
+}
 
 /* FOOTER */
 
