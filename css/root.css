@@ -4,6 +4,7 @@
 
     /* Spaziature */
     --space-1px: 1px;
+    --space-3xs: 3px;
     --space-xxs: 5px;
     --space-xs: 10px;
     --space-s: 15px;
@@ -80,15 +81,16 @@
     --space-l-3xl: 0 0 0 40px;
 
     /* Margin */
-    --m-center: 0 auto;
+    --mx-center: 0 auto;
+    --my-center: auto 0;
 
     /* Colors */
     --color1: white;
     --color2: black;
-    --color3: gray;
-    --color4: blue;
-    --color5: red;
-    --color6: green;
+    --color3: #F6F6F6;
+    --color4: #255EE9;
+    --color5: #23272A;
+    --color6: #7289DA;
     --color7: goldenrod;
     --color8: aqua;
     --color9: pink;
