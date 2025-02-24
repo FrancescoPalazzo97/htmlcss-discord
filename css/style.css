@@ -28,7 +28,15 @@ body {
     flex-wrap: nowrap;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 /* text decorations, sizes and align */
+
+.v-align-center {
+    vertical-align: center;
+}
 
 .text-center {
     text-align: center;
@@ -46,8 +54,12 @@ body {
     font-size: 50px;
 }
 
+.font-size-xl {
+    font-size: 38px;
+}
+
 .font-size-l {
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .font-size-m {
@@ -76,6 +88,10 @@ body {
     background-color: var(--color5);
 }
 
+.bg-4 {
+    background-color: var(--color1);
+}
+
 .bg-image1 {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -86,7 +102,7 @@ body {
 
 /* Margin */
 
-.m-autocenter {
+.mx-autocenter {
     margin: var(--mx-center);
 }
 
@@ -106,7 +122,15 @@ body {
     margin: 0 var(--space-s);
 }
 
+.my-m {
+    margin: var(--space-m) 0;
+}
+
 /* Padding */
+
+.padding-center {
+    padding: auto;
+}
 
 .padding-xs {
     padding: var(--space-xs);
@@ -181,12 +205,16 @@ body {
     transition: 0.5s;
 }
 
-.btn-style.bg-2.txt-black:hover {
+.btn-style.bg-1:hover {
+    background-color: #6088ee;
+}
+
+.btn-style.bg-2:hover {
     background-color: var(--color5);
     color: var(--color1);
 }
 
-.btn-style.bg-3.txt-white:hover {
+.btn-style.bg-3:hover {
     background-color: var(--color3);
     color: var(--color2);
 }
@@ -230,7 +258,23 @@ header .logo {
     margin-bottom: 250px;
 }
 
+/* section4 */
+
+.txt-container:first-child {
+    margin: 10px 155px 0;
+}
+
+.txt-container:last-child {
+    margin: 0 155px 50px;
+}
+
+
+
 /* FOOTER */
+
+#top-footer {
+    border-bottom: 1px solid var(--color4);
+}
 
 footer .padding-xs {
     padding: 3px 5px;
