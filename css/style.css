@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* GENERICS */
+
+/* generics flex */
+
+.d-flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+/* text align */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* background color */
+
+.bg-golden {
+    background-color: var(--color7);
+}
+
+.bg-2 {
+    background-color: var(--color8);
+}
+
+.bg-blue {
+    background-color: var(--color4);
+}
+
+.bg-pink {
+    background-color: var(--color9);
+}
+
+.bg-white {
+    background-color: var(--color1);
+}
+
+.bg-azure {
+    background-color: var(--color10);
+}
+
+.bg-gray {
+    background-color: var(--color3);
+}
+
+.bg-green {
+    background-color: var(--color6);
+}
+
+.bg-black {
+    background-color: var(--color2);
+}
+
+/* margin e padding */
+
+/* Margin */
+
+.m-autocenter {
+    margin: var(--m-center);
+}
+
+.margin-b-min {
+    margin: var(--space-b-1px);
+}
+
+/* Padding */
+
+.padding-xs {
+    padding: var(--space-xs);
+}
+
+.padding-tp-xs{
+    padding: var(--space-tb-xs);
+}
+
+.padding-tp-s {
+    padding: var(--space-tb-s);
+}
+
+.padding-tp-xl {
+    padding: var(--space-tb-xl);
+}
+
+.padding-tp-3xl {
+    padding: var(--space-tb-3xl);
+}
+
+/* borders */
+
+.border-dash {
+    border: 1px dashed black;
+}
+
+/* containers and sizes */
+
+.container {
+    width: var(--width-maincontainer-1080p);
+}
+
+.container-xxl {
+    width: 100%;
+}
+
+.container-l {
+    width: 70%;
+}
+
+.container-m {
+    width: 65%;
+}
+
+.container-s {
+    width: 35%;
+}
+
+.container-xs {
+    width: 30%;
+}
+
+.container-xxs {
+    width: 25%;
+}
+
+.h-medium {
+    height: 400px;
+}
+
+.h-large {
+    height: 550px;
+}
+
+/* NAVBAR */
+
+header .logo {
+    width: 20%;
+}
+
+.nav {
+    width: 60%;
+}
+
+.login {
+    width: 20%;
+}
+
+.nav-link {
+    color: black;
+    padding: 3px 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid goldenrod;
+}
+
+.nav-link:hover{
+    color: blue;
+    border: 1px solid blue;
+}
+
+/* SPLASHSCREEN */
+
+.sub-container {
+    width: 800px;
+}
+
+/* MAIN CONTENT */
+
+/* FOOTER */
+
+footer .padding-xs {
+    padding: 3px 5px;
+}
+
+.btn>button {
+    transition: 0.5s;
+}
+
+.btn>button:hover {
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+}
